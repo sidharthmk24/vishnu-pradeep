@@ -1,26 +1,61 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-brand-black: #161616;
+  --color-brand-card: #1f1f1f;
+  --color-brand-red: #e13131;
+  --color-brand-red-hv: #c52222;
+  --color-brand-white: #FFFFFF;
+
+  --font-display: var(--font-playfair);
+  --font-body: var(--font-dm-sans);
+  --font-mono: var(--font-dm-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+::selection { 
+  background: var(--color-brand-red); 
+  color: var(--color-brand-white); 
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Lenis Smooth Scroll Guidelines */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overflow: clip;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+html { 
+  scroll-behavior: smooth; 
+}
+
+body { 
+  background: var(--color-brand-black); 
+  color: var(--color-brand-white); 
+  font-family: var(--font-body);
+}
+
+::-webkit-scrollbar { 
+  width: 4px; 
+}
+
+::-webkit-scrollbar-track { 
+  background: var(--color-brand-black); 
+}
+
+::-webkit-scrollbar-thumb { 
+  background: var(--color-brand-red); 
 }
