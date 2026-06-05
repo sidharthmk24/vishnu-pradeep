@@ -7,9 +7,11 @@
   --color-brand-red-hv: #c52222;
   --color-brand-white: #FFFFFF;
 
-  --font-display: var(--font-playfair);
-  --font-body: var(--font-dm-sans);
+  --font-display: var(--font-libre-caslon-next);
+  --font-body: var(--font-open-sans-next);
   --font-mono: var(--font-dm-mono);
+  --font-open-sans: var(--font-open-sans-next);
+  --font-libre-caslon: var(--font-libre-caslon-next);
 }
 
 ::selection { 

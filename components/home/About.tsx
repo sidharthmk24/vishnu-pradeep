@@ -21,7 +21,7 @@ export default function About() {
                 className="mb-10"
               />
               
-              <div className="font-body text-brand-white/75 text-[18px] md:text-[20px] leading-[1.6] flex flex-col gap-6 max-w-[600px]">
+              <div className="font-body font-light text-brand-white/75 text-[18px] md:text-[20px] leading-[1.6] flex flex-col gap-6 max-w-[720px]">
                 <p>
                   I’ve spent 15+ years working across media, branding, and marketing — building brands from the inside, not observing from the outside. Today, I lead a branding and marketing agency based in South India.
                 </p>

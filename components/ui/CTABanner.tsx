@@ -36,8 +36,8 @@ export default function CTABanner({
 
             {/* Premium editorial headline matching rest of the site */}
             <FadeUp delay={0.15}>
-              <h2 className="font-display font-semibold text-brand-white text-[clamp(32px,5vw,50px)] leading-[1.15] tracking-tight max-w-2xl">
-                Ready to build strategy that <span className="font-display italic text-brand-red font-medium border-b-[2px] border-brand-red/30 pb-1">actually sells?</span>
+              <h2 className="font-display font-medium text-brand-white text-[clamp(32px,5vw,50px)] leading-[1.15] tracking-tight max-w-2xl">
+                Ready to build strategy that <span className="font-display italic text-brand-red font-thin border-b-[2px] border-brand-red/30 pb-1">actually sells?</span>
               </h2>
             </FadeUp>
 
@@ -52,7 +52,7 @@ export default function CTABanner({
               <Button
                 href={buttonHref}
                 variant="primary"
-                className="uppercase tracking-wider text-[12px] font-semibold py-4 px-10"
+                className="  text-[15px]  py-4 px-10"
               >
                 {buttonText} 
               </Button>

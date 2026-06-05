@@ -11,20 +11,20 @@ export default function NewHero() {
         
         {/* Left Content (Text on top for mobile, left for desktop) */}
         <div className="w-full lg:w-[65%] flex flex-col justify-center pb-0 lg:pb-20 lg:py-0 relative z-20 text-center lg:text-left items-center lg:items-start flex-grow lg:flex-grow-0">
-          <h1 className="font-display font-bold text-brand-white text-[clamp(32px,9vw,48px)] md:text-6xl lg:text-7xl leading-[1.12] mb-6 lg:mb-8 whitespace-nowrap lg:whitespace-normal">
+          <h1 className="font-display font-medium text-brand-white text-3xl md:text-6xl lg:text-7xl leading-[1.30] mb-6 lg:mb-4 whitespace-nowrap lg:whitespace-normal">
             Strategy that <span className="text-brand-red">builds.</span>
             <br />
             Creativity that <span className="text-brand-red">sells.</span>
           </h1>
 
-          <p className="font-body text-brand-white/80 text-[14px] sm:text-[18px] md:text-[20px] max-w-full lg:max-w-[60%] leading-[1.6] mb-0 lg:mb-10 mx-auto lg:mx-0">
+          <p className="font-body font-thin text-brand-white/80 text-[14px] sm:text-[18px] md:text-[20px] max-w-full lg:max-w-[60%] leading-[1.6] mb-0 lg:mb-10 mx-auto lg:mx-0">
             Helping founders and business leaders<br className="block lg:hidden" />
             build brands that scale<br className="block lg:hidden" />
             15+ years of real-world agency<br />
             experience, not theory.
           </p>
 
-          <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center lg:justify-start gap-4 lg:gap-5 w-full sm:w-auto hidden lg:flex">
+          <div className=" flex-col sm:flex-row flex-wrap items-center justify-center lg:justify-start gap-4 lg:gap-5 w-full sm:w-auto hidden lg:flex">
             <Button href="/contact" variant="primary" className="font-semibold text-[15px] px-8 py-3.5 w-full sm:w-auto">
               Work With Me
             </Button>

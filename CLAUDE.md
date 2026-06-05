@@ -36,7 +36,7 @@ Two custom skills live in `/skills/`. Always read them before building:
 | Framework | Next.js 14, App Router, TypeScript strict |
 | Styling | Tailwind CSS + theme extension |
 | Animation | Framer Motion (minimal — see skill) |
-| Fonts | next/font/google (Playfair Display, DM Sans, DM Mono) |
+| Fonts | next/font/google (Libre Caslon Text, Open Sans, DM Mono) |
 | Icons | lucide-react |
 | Images | next/image, placeholder="blur" |
 | Forms | Controlled React state (useState) — no form library |
@@ -72,8 +72,8 @@ No blog. No case study detail pages. No CMS. Keep it lean.
  
 ### Fonts
 ```
-font-display  → Playfair Display  → headlines
-font-body     → DM Sans           → body, nav, buttons
+font-display  → Libre Caslon Text → headlines
+font-body     → Open Sans         → body, nav, buttons
 font-mono     → DM Mono           → overlines, tags, labels (UPPERCASE, tracking-widest)
 ```
  

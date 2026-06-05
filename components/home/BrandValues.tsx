@@ -85,7 +85,7 @@ export default function BrandValues() {
                       {value.title}
                     </h3>
                     
-                    <p className="font-body text-brand-white/50 text-[16px] leading-relaxed relative z-10">
+                    <p className="font-body font-light text-brand-white/50 text-[16px] leading-relaxed relative z-10">
                       {value.description}
                     </p>
 

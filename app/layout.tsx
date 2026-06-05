@@ -1,21 +1,22 @@
 import type { Metadata } from "next";
-import { Playfair_Display, DM_Sans, DM_Mono } from "next/font/google";
+import { Libre_Caslon_Text, Open_Sans, DM_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import SmoothScroll from "@/components/animations/SmoothScroll";
 
-const playfair = Playfair_Display({
-  variable: "--font-playfair",
+const libreCaslon = Libre_Caslon_Text({
+  variable: "--font-libre-caslon-next",
   subsets: ["latin"],
-  weight: ["700", "900"],
-  style: ["normal", "italic"],
+  weight: ["400", "700"],
+  style: ["normal"],
 });
 
-const dmSans = DM_Sans({
-  variable: "--font-dm-sans",
+const openSans = Open_Sans({
+  variable: "--font-open-sans-next",
   subsets: ["latin"],
-  weight: ["400", "500"],
+  weight: ["300", "400", "500", "600", "700", "800"],
+  style: ["normal", "italic"],
 });
 
 const dmMono = DM_Mono({
@@ -37,7 +38,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${playfair.variable} ${dmSans.variable} ${dmMono.variable} h-full antialiased`}
+      className={`${libreCaslon.variable} ${openSans.variable} ${dmMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col font-body">
         <SmoothScroll>

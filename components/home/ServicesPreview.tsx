@@ -83,10 +83,10 @@ export default function ServicesPreview() {
 
                   {/* Text Content */}
                   <div>
-                    <h3 className="font-display font-bold text-[24px] md:text-[28px] leading-tight text-brand-white group-hover:text-brand-red transition-colors duration-500">
+                    <h3 className="font-display font-medium text-[24px] md:text-[28px] leading-tight text-brand-white group-hover:text-brand-red transition-colors duration-500">
                       {service.title}
                     </h3>
-                    <p className="font-body text-brand-white/55 text-[15px] leading-relaxed mt-4 max-w-[90%]">
+                    <p className="font-body font-light text-brand-white/55 text-[16px] leading-relaxed mt-4 max-w-[90%]">
                       {service.description}
                     </p>
                   </div>

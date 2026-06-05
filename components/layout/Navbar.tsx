@@ -19,8 +19,8 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { name: "Portfolio", href: "/portfolio" },
-    // { name: "Speaking", href: "/speaking" },
+    // { name: "Portfolio", href: "/portfolio" },
+    { name: "Case Studies", href: "/case-studies" },
   ];
 
   return (
@@ -31,7 +31,7 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-6 lg:px-20">
         <div className="flex items-center justify-between h-20">
-          <Link href="/" className="font-display font-bold text-brand-white text-[18px]">
+          <Link href="/" className="font-display font-semibold text-brand-white text-[18px]">
             Vishnu Pradeep
           </Link>
           
@@ -44,7 +44,7 @@ export default function Navbar() {
                   <Link
                     key={link.name}
                     href={link.href}
-                    className={`relative text-[14px] font-medium transition-colors duration-200 hover:text-brand-red ${
+                    className={`relative text-[16px] font-light transition-colors duration-200 hover:text-brand-red ${
                       isActive ? "text-brand-white" : "text-brand-white/80"
                     }`}
                   >
@@ -61,7 +61,7 @@ export default function Navbar() {
             </div>
             <Link
               href="/contact"
-              className="bg-brand-red text-brand-white font-medium text-[13px] px-5 py-2 hover:bg-brand-red-hv transition-colors duration-200"
+              className="bg-brand-red text-brand-white font-medium text-[16px] px-5 py-2 hover:bg-brand-red-hv transition-colors duration-200"
             >
               Get In Touch
             </Link>

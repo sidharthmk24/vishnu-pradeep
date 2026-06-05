@@ -21,12 +21,12 @@ export default function SectionHeader({
           {overline}
         </span>
       </FadeUp>
-      <h2 className={`font-display font-bold text-brand-white ${align === "center" ? "text-4xl md:text-[44px]" : "text-4xl md:text-[38px]"} leading-tight`}>
+      <h2 className={`font-display font-medium text-brand-white ${align === "center" ? "text-4xl md:text-[44px]" : "text-4xl md:text-[38px]"} leading-tight`}>
         <SplitText>{headline}</SplitText>
       </h2>
       {subcopy && (
         <FadeUp delay={0.25}>
-          <p className={`font-body text-brand-white/60 text-16px md:text-[20px] mt-4 ${align === "center" ? "max-w-xl mx-auto" : "max-w-2xl"} leading-relaxed`}>
+          <p className={`font-body font-light text-brand-white/60 text-16px md:text-[20px] mt-4 ${align === "center" ? "max-w-xl mx-auto" : "max-w-2xl"} leading-relaxed`}>
             {subcopy}
           </p>
         </FadeUp>
